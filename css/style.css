@@ -1,0 +1,50 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+/* Utility classes =============================================================================================================== */
+:root{
+--main-text: #000;
+--secondary-text: #565656;
+--additional-text: #888888;
+--accent-color: #ff5353;
+--accent-bg: #eae2d9;
+}
+.container{
+width: 60%;
+margin: 0 auto;
+}
+.flex-container{
+display: flex;
+justify-content: space-between;
+}
+.flex-container-center{
+display: flex;
+justify-content: center;
+}
+.grid-container{
+display: grid;
+}
+.text-xs{
+font-size: 15px;
+font-weight: 300;
+}
+.text-s{
+font-size: 18px;
+font-weight: 400;
+}
+.text-md{
+font-size: 25px;
+font-weight: 700;
+}
+.text-lg{
+font-size: 48px;
+font-weight: 700;
+}
+.text-xl{
+font-size: 80px;
+font-weight: 700;
+}
