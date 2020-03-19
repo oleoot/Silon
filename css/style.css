@@ -125,7 +125,7 @@ grid-gap: 30px;
 .journal-headline{
 margin: 20px 0 30px;
 }
-.journal-underline{
+.underline{
 width: 100%;
 height: 1px;
 background: #e1e1e1;
@@ -142,17 +142,72 @@ padding: 50px 0 100px;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-gap: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
+/* Footer section ====================================================== */
+#footer{
+background: var(--accent-bg);
+padding: 100px 0 45px;
+}
+.footer-wrap{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#footer li:first-child{
+font-weight: 500;
+margin-bottom: 40px;
+text-transform: uppercase;
+}
+#footer li{
+margin-bottom: 15px;
+}
+.footer-platform-pane{
+background: #fff;
+border-radius: 5px;
+padding: 12px;
+}
+#footer-apple{
+background: var(--accent-color);
+}
+#footer-apple p{
+color: #fff;
+}
+.footer-platform-pane p{
+text-transform: uppercase;
+font-weight: 500;
+}
+.footer-platform-pane p:first-child{
+color: var(--additional-text);
+font-weight: 400;
+}
+.platform-logo{
+align-items: center;
+margin-right: 8px;
+}
+.footer-underline{
+margin-top: 30px;
+background: var(--additional-text);
+}
+.footer-social-wrap{
+margin-top: 25px;
+justify-content: start !important;
+}
+.footer-social-wrap a{
+width: 30px;
+height: 30px;
+align-items: center;
+background: #fff;
+margin-right: 10px;
+}
+.social-headline{
+font-weight: 500 !important;
+text-transform: uppercase;
+}
+.footer-copyright{
+text-align: center;
+color: var(--secondary-text);
+}
+.footer-copyright a{
+text-decoration: none;
+color: var(--accent-color);
+}
 /* Utility classes =============================================================================================================== */
 :root{
 --main-text: #000;
