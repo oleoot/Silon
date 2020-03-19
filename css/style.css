@@ -67,9 +67,6 @@ margin: 30px auto 60px;
 grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 20px;
 }
-.featured-wrap p{
- text-align: center;
-}
 /* Discount-section =================================================*/
 #discount{
 background: var(--accent-bg);
@@ -88,7 +85,11 @@ margin: 0 auto 50px;
 .discount-wrap-left{
 align-items: center;
 }
-
+/* Popular section ===================================================*/
+.popular-wrap{
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 20px;
+}
 
 
 
@@ -179,4 +180,7 @@ margin: 10px 0;
 }
 .stars img{
 margin: 0 3px;
+}
+.item-text{
+ text-align: center;
 }
