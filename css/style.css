@@ -54,6 +54,7 @@ align-items: center;
 text-align: center;
 color: var(--secondary-text);
 text-transform: uppercase;
+font-weight: 500;
 }
 .header-left h1{
 text-align: center;
@@ -69,9 +70,24 @@ grid-gap: 20px;
 .featured-wrap p{
  text-align: center;
 }
-
-
-
+/* Discount-section =================================================*/
+#discount{
+background: var(--accent-bg);
+padding: 50px 0 0 0;
+}
+.discount-wrap{
+grid-template-columns: 1fr 1fr;
+}
+.discount-wrap img{
+display: block;
+}
+.discount-img{
+display: block;
+margin: 0 auto 50px;
+}
+.discount-wrap-left{
+align-items: center;
+}
 
 
 
@@ -152,6 +168,7 @@ outline: none;
 padding: 20px 45px;
 display: block;
 margin: auto;
+font-weight: 500;
 }
 .item-img{
 width: 100%;
