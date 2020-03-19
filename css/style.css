@@ -4,6 +4,89 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
+/* Header section =================================================== */
+#header{
+height: 100vh;
+}
+#header-info-wrap{
+background: var(--accent-bg);
+}
+.header-info {
+height: 50px;
+align-items: center;
+}
+.container ul{
+list-style-type: none;
+}
+.header-info-pane ul li{
+text-transform: uppercase;
+}
+.header-info-pane ul li:not(:last-child){
+margin-right: 25px;
+}
+.header-nav{
+height: 80px;
+}
+#nav-left, #nav-center, #nav-right{
+align-items: center;
+}
+#nav-center ul li{
+margin: 0 20px;
+text-transform: uppercase;
+}
+#nav-right a{
+margin: 0 15px;
+}
+.header-main{
+height: calc(100vh - 130px);
+background: url(../img/bg/bg-1.jpg);
+grid-template-columns: 1fr 1fr;
+}
+.header-main img{
+width: 100%;
+height: 100%;
+}
+.header-left{
+align-items: center;
+}
+.header-left p{
+text-align: center;
+color: var(--secondary-text);
+text-transform: uppercase;
+}
+.header-left h1{
+text-align: center;
+color: var(--main-text);
+width: 70%;
+margin: 30px auto 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Utility classes =============================================================================================================== */
 :root{
@@ -34,7 +117,7 @@ font-weight: 300;
 }
 .text-s{
 font-size: 18px;
-font-weight: 400;
+font-weight: 500;
 }
 .text-md{
 font-size: 25px;
@@ -47,4 +130,15 @@ font-weight: 700;
 .text-xl{
 font-size: 80px;
 font-weight: 700;
+}
+.btn{
+background: var(--accent-color);
+text-transform: uppercase;
+color: #fff;
+border-radius: 5px;
+border: none;
+outline: none;
+padding: 20px 45px;
+display: block;
+margin: auto;
 }

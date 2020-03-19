@@ -5,45 +5,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Silon.</title>
 </head>
 
 <body>
     <section id="header">
-        <div class="header-info flex-container">
-            <div class="header-info-pane flex-container">
-                <ul>
-                    <li>Phone: +01256 25 235</li>
-                    <li>Email: info@eiser.com</li>
-                </ul>
-            </div>
-            <div class="header-info-pane flex-container">
-                <ul>
-                    <li>Gift card</li>
-                    <li>Track order</li>
-                    <li>Language</li>
-                </ul>
+        <div id="header-info-wrap">
+            <div class="header-info flex-container container">
+                <div class="header-info-pane flex-container">
+                    <ul class="flex-container">
+                        <li class="text-xs">Phone: +01256 25 235</li>
+                        <li class="text-xs">Email: info@eiser.com</li>
+                    </ul>
+                </div>
+                <div class="header-info-pane flex-container">
+                    <ul class="flex-container">
+                        <li class="text-xs">Gift card</li>
+                        <li class="text-xs">Track order</li>
+                        <li class="text-xs">Language</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <nav class="header-nav">
-            <img src="img/icons/logo.png" alt="logo">
-            <div id="nav-center">
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
+        <div class="container">
+            <nav class="header-nav flex-container">
+                <div id="nav-left" class="flex-container-center">
+                    <img src="img/icons/logo.png" alt="logo"></div>
+                <div id="nav-center" class="flex-container-center">
+                    <ul class="flex-container-center">
+                        <li class="text-s">Home</li>
+                        <li class="text-s">Shop</li>
+                        <li class="text-s">Blog</li>
+                        <li class="text-s">Products</li>
+                        <li class="text-s">Brands</li>
+                        <li class="text-s">Contact</li>
+                    </ul>
+                </div>
+                <div id="nav-right" class="flex-container">
+                    <a href=""><img src="img/icons/search.png" alt="search"></a>
+                    <a href=""><img src="img/icons/cart.png" alt="cart"></a>
+                    <a href=""><img src="img/icons/like.png" alt="like"></a>
+                </div>
+            </nav>
+        </div>
+        <div class="header-main grid-container">
+            <div class="flex-container-center header-left">
+                <div>
+                    <p class="text-s">Ultimate Collection</p>
+                    <h1 class="text-xl">Complete Women Fashion Here</h1>
+                    <button class="btn text-s">Shop Now</button>
+                </div>
             </div>
-            <div id="nav-right">
-                <img src="img/icons/search.png" alt="search">
-                <img src="img/icons/cart.png" alt="cart">
-                <img src="img/icons/like.png" alt="like">
+            <div>
+                <img src="img/bg/ban-1.png" alt="banner-1">
             </div>
-        </nav>
+        </div>
+
+
     </section>
 
 
