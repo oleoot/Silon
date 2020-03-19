@@ -120,7 +120,7 @@ grid-gap: 20px;
 /* Journal section ================================================= */
 .journal-wrap{
 grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 20px;
+grid-gap: 30px;
 }
 .journal-headline{
 margin: 20px 0 30px;
