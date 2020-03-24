@@ -327,6 +327,9 @@ margin: 0 3px;
  .container{
     width: 80%;
     }
+    .item-img:hover{
+        opacity: 1;
+        }
 }
 @media screen and (max-width: 768px){
     .header-info li{
